@@ -1,0 +1,21 @@
+print("Financial Analysis")
+print(f"----------------------------")
+print(f"Total Months: {total_months}")
+print(f"Total: {total}")
+print(f"Average Change: {average_change}")
+print(f"Greatest Increase in Profits: {Date} + {maximum_profit}")
+print(f"Greatest Decrease in Profits: {Date} + {maximum_loss}")
+
+for profit in budget_data:
+    
+    total += profit
+    count += 1
+    
+if minimum == 0:
+    minimum = profit
+elif profit < minimum:
+    minimum = profit
+elif profit > maximum:
+    maxmium = tip
+
+average = round(total / count, 2)
